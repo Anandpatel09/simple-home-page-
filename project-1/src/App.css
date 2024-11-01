@@ -1,0 +1,81 @@
+:root {
+--red:#d01c28;
+--gray:#2e2e2e;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* max-width: 1200px; */
+    margin: 0 auto;
+    height: 72px;
+    align-items: center;
+    background-color: rgb(195, 247, 230);
+}
+*{
+    margin: 0;
+}
+.nike-img{
+    height: 54px;
+    width: 73px;
+}
+nav ul{
+    display: flex;
+    list-style:none;
+    gap: 24px;
+}
+
+button{
+    all: unset;
+    padding: 6px 16px;
+    background:var(--red);
+    height: 32px;
+    color: rgb(253, 251, 251);
+    font-weight: 500;
+}
+.shose{
+    width: 460px;
+    height: 660px;
+    
+}
+.hero-text{
+    margin-top: 12px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-shadow:5px 1px 5px black;
+}
+.hero-text h1{
+    color: rgb(19, 18, 19);
+    padding: 14px;
+}
+.hero-text p{
+    
+    letter-spacing: 3px;
+    margin-top: 12px;
+    padding: 14px;
+}
+.hero-content{
+    display: flex;
+    align-items: center;
+    height: calc(100vh -72px);
+   margin: 45px;
+    gap: 250px;
+}
+.shopping {
+display: flex;
+gap: 23px;
+}
+.brand-icon{
+    display: flex;
+}
+.nike-img{
+    width: 60px;
+    height: 68px;
+    margin: 15px;
+}
+.hero-button{
+    text-align: center;
+   
+}
+.btn1{
+    margin: 34px;
+}
